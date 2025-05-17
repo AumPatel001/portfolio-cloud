@@ -1,0 +1,38 @@
+Aum Patel
+ Email: patelaum37@gmail.com | Mobile: +1 (343)-558-8939 | LinkedIn | Portfolio | GitHub
+
+
+Education
+School of Advanced Technology, Algonquin College, Canada                                                               May 2023 – Aug 2025                                                        
+Advance Diploma in Computer Engineering Technology -CS
+Concentration 1: Application & Systems Engineering    Concentration 2:Web & Enterprise Solutionst Concentration 3: Data Management & Analytics Courses:Object‐Oriented Design & Programming , Data Structures & Algorithms ,Web Application Development ,Database Design & Management , Business Intelligence & Data Analytics
+
+Work Experience
+Backend & Machine Learning Developer - Cloud Concierge         May 2025 –Present
+Ontario| Canada
+Engineered a predictive forecasting engine using TensorFlow & Python, analyzing historical and meteorological data to project weekly restaurant metrics (sales, customers).
+Architected and implemented the core backend infrastructure (Node.js, Express.js) handling authentication, data processing, and database (MongoDB Atlas) interactions.
+Seamlessly integrated the ML model into the backend, enabling automated forecast generation and delivery to the user interface.
+Orchestrated data pipelines connecting the React frontend, Node.js backend, MongoDB, and external weather APIs for efficient information flow.
+
+
+Academic Project
+Serverless Weather API with CI/CD on AWS (Apr 2025)
+Architected a  microservice weather API using AWS Lambda, API Gateway, DynamoDB, and S3.
+Built Python-based Lambda functions for real-time weather data processing.
+Automated deployments with AWS CodePipeline, CodeBuild, and SAM for IaC.
+Implemented CloudWatch and X-Ray for observability and AWS Cognito for secure authentication.
+Enabled event-driven architecture with AWS EventBridge, reducing costs by 70% via serverless scaling.
+Kubernetes Blog Platform with GitOps on GCP (Jan 2025)
+Developed a containerized blog platform on Google Kubernetes Engine (GKE) with Docker and Terraform.
+Deployed Node.js backend, React frontend, and MongoDB using Kubernetes manifests.
+Automated CI/CD with GitHub Actions and Argo CD for GitOps.
+Monitored with Prometheus and Grafana, achieving 90% deployment reliability.
+Configured Helm charts and auto-scaling for efficient resource management.
+DevSecOps Task Manager with AI Anomaly Detection (Dec 2024)
+Created a Python/Flask task management web app with a DevSecOps pipeline on GitLab CI.
+Integrated SonarQube, OWASP ZAP, and Trivy for SAST, DAST, and container scanning.
+Deployed to GCP Cloud Run using Terraform, with Prometheus/Grafana for monitoring.
+Used Google Cloud Anomaly Detection AI to identify log anomalies, reducing incident response time by 50%.
+Enforced compliance with Open Policy Agent (OPA) policies.
+To demonstrate impact and gain a deeper understanding of attack vectors and mitigation strategies.
