@@ -33,6 +33,12 @@ jobs:
           echo "Build completed"
           ls -la dist/public
 
+      - name: Create CNAME
+        run: |
+          echo "Creating CNAME file..."
+          echo "aumpatel001.github.io" > dist/public/CNAME
+          ls -la dist/public/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -49,3 +55,11 @@ jobs:
           cname: 'aumpatel001.github.io'
           keep_history: true
           verbose: true
+
+      - name: Enable GitHub Pages
+        run: |
+          echo "Enabling GitHub Pages..."
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               -X PUT \
+               -d '{"source":"gh-pages"}' \
+               https://api.github.com/repos/AumPatel001/portfolio-cloud/pages
