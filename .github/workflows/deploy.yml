@@ -18,18 +18,18 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'pnpm'
+          cache: 'npm'
 
       - name: Install dependencies
         run: |
           echo "Installing dependencies..."
-          pnpm install
+          npm install
           echo "Dependencies installed successfully"
 
       - name: Build
         run: |
           echo "Building project..."
-          pnpm build
+          npm run build
           echo "Build completed"
           ls -la dist/public
 
