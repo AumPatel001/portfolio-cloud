@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    cursor: none;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 font-inter;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  .custom-cursor {
+    @apply fixed w-5 h-5 bg-primary rounded-full pointer-events-none mix-blend-difference z-50;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-link {
+    @apply text-gray-600 hover:text-primary transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8;
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+} 
