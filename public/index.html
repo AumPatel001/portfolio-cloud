@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Aum Patel | Portfolio</title>
+    <meta name="description" content="Aum Patel - Backend & Machine Learning Developer. Explore my portfolio showcasing innovative applications, professional experience, and academic projects." />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Aum Patel | Portfolio" />
+    <meta property="og:description" content="Backend & Machine Learning Developer with expertise in cloud infrastructure, data engineering, and modern web applications." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      body {
+        overflow-x: hidden;
+        cursor: none;
+      }
+
+      .custom-cursor {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: fixed;
+        pointer-events: none;
+        z-index: 9999;
+        mix-blend-mode: difference;
+        transform: translate(-50%, -50%);
+      }
+      
+      .reveal {
+        position: relative;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 1s ease;
+      }
+      
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      .timeline-container::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        background-color: hsl(var(--primary));
+        top: 0;
+        bottom: 0;
+        left: 30px;
+      }
+      
+      .timeline-item::before {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: hsl(var(--primary));
+        left: 23px;
+        top: 8px;
+        z-index: 1;
+      }
+      
+      @media (min-width: 768px) {
+        .timeline-container::after {
+          left: 50%;
+        }
+        
+        .timeline-item::before {
+          left: 50%;
+          margin-left: -8px;
+        }
+      }
+      
+      .project-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      }
+      
+      .nav-link.active {
+        color: hsl(var(--primary));
+        border-bottom: 2px solid hsl(var(--primary));
+      }
+      
+      .nav-link {
+        transition: color 0.3s ease, border-bottom 0.3s ease;
+      }
+      
+      .nav-link:hover {
+        color: hsl(var(--primary));
+      }
+    </style>
+    <script type="module" crossorigin src="/portfolio-cloud/assets/index-CgF-nROV.js"></script>
+    <link rel="stylesheet" crossorigin href="/portfolio-cloud/assets/index-2avOeepx.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>
